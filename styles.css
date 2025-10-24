@@ -124,7 +124,6 @@ nav button svg{
 }
 
 #moving-div{
-    background-color: red;
     margin-top: 10vh;
     position: absolute;
     bottom: 3%;
@@ -135,13 +134,22 @@ nav button svg{
 }
 #moving-div .move{
     display: inline-block;
+    animation-name: move;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
 }
 #moving-div .move img{
     height: 1vw;
     margin: 0 1.2vw;
 }
-@keyframes identifier {
-    
+@keyframes move {
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
 }
 
 #page2{
