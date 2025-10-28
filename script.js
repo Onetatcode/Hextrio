@@ -90,6 +90,8 @@ function page3VideoAnimation() {
         })
     })
 }
-page3VideoAnimation()    
-navAnimation()
-page2Animation()
+
+
+//page3VideoAnimation()    
+//navAnimation()
+//page2Animation()
