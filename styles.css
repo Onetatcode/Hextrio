@@ -295,14 +295,16 @@ nav button svg{
     width: 100%;
     background-color: #fff;
     position: relative;
+    padding-bottom: 13vh;
 }
 .section{
-    height: 100vh;
+    height: 72vh;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 17vh 10.5vw;
+    padding: 13vh 10.5vw;
+    padding-bottom: 0;
 }
 .sec-left{
     height: 100%;
@@ -340,4 +342,90 @@ nav button svg{
     top: 0;
     left: 0;
     opacity: 0;
+    transition: opacity ease-in 0.3s; 
+}
+#page5{
+    min-height: 100vh;
+    width: 100%;
+    background-color: #111;
+    position: relative;
+    padding: 5vw 10.5vw;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+#page5 button{
+    background-color: #0ba340;
+    padding: 0.9vw 2vw;
+    font-size: 1vw;
+    border-radius: 50px;
+    border: none;
+}
+#page5-right{
+    width: 76%;
+}
+#page5-right>p{
+    font-size: 1.9vw;
+}
+#page5-right>p span {
+    width: 15vw;
+    display: inline-block;
+}
+#page5-content{
+    width: 100%;
+    margin-top: 5vh;
+    padding: 5vh 0;
+    border-top: 2px solid #fff;
+}
+#page5-content>h1{
+    font-size: 3vw;
+}
+#page5-content #flex{
+    display: flex;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+}
+#page5-content #flex h4{
+    border-radius: 50px;
+    border: 1px solid #fff;
+    font-weight: 400;
+    font-size: 0.8vw;
+    padding: 10px 20px;
+}
+.page5-elem{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding-top: 3vh;
+    padding-bottom: 9vh;
+    position: relative;
+}
+.page5-elem p{
+    width: 60%;
+    font-size: 0.8vw;
+    position: relative;
+    z-index: 8;
+}
+.page5-elem h3{
+    font-size: 1.5vw;
+    font-weight: 400;
+    position: relative;
+    z-index: 8;
+}
+.page5-elem i{
+    font-size: 1.5vw;
+    position: relative;
+    z-index: 8;
+}
+.over{
+    height: 100%;
+    width: 100%;
+    background-color: #333;
+    position: absolute;
+    top: 0;
+    transform: translateY(-100%);
+    opacity: 0;
+}
+.page5-elem{
+    
 }
